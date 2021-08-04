@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node sockets/server.js",
     "server": "nodemon ./sockets/server.js",
     "debug-server": "node --inspect-brk ./sockets/server.js"
   },

@@ -1,5 +1,4 @@
-/**
- * @URL {get} http://tecnops.es:13257/
+/*
  * cmd: node ./sockets/server.js
  */
 const express = require('express');
@@ -8,7 +7,7 @@ const http = require('http').createServer(app);
 const io = require('socket.io')(http);
 const formidable = require('formidable');
 const path = require('path');
-const PORT = process.PORT || 13257;
+const PORT = process.PORT || 3000;
 
 /** 
  * @description Muestra el puerto donde se ha iniciado la aplicación
