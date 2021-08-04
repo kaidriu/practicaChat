@@ -7,7 +7,7 @@ const http = require('http').createServer(app);
 const io = require('socket.io')(http);
 const formidable = require('formidable');
 const path = require('path');
-const PORT = process.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 /** 
  * @description Muestra el puerto donde se ha iniciado la aplicación
